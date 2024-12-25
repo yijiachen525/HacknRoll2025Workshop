@@ -1,0 +1,15 @@
+name: mw-data-workshop
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - scrapy==2.11
+      - confluent-kafka==2.2
+      - beautifulsoup4>=4.8
+      - cachetools==4.2.2
+      - dash==2.7.0
+      - pandas==2.2.0
+      - itemadapter~=0.8.0
+      - plotly~=5.18.0
