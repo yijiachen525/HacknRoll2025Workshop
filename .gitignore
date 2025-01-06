@@ -1,0 +1,4 @@
+.idea/*
+__pycache__/
+db/HockeyTeams.db
+db/HacknRoll2025.db
